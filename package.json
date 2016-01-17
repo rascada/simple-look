@@ -1,0 +1,16 @@
+{
+  "name": "simple-look",
+  "version": "0.1.0",
+  "description": "classes for simple user interface",
+  "main": "core.styl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rascada/simple-look.git"
+  },
+  "author": "Damian Martyniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rascada/simple-look/issues"
+  },
+  "homepage": "https://github.com/rascada/simple-look#readme"
+}
