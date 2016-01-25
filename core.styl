@@ -1,10 +1,10 @@
+@import 'classes/button'
+@import 'classes/input'
+
+button
+  @extend .button
+
 input
-  box-sizing border-box
-  background #fff
-  border 0
-  margin .25em
-  padding .5em
-  text-align center
+  @extend .input
   &[type='submit']
-    outline none
-    cursor pointer
+    @extend .button
