@@ -1,0 +1,21 @@
+@import '../core/shadow'
+
+//TODO ripple effect
+button()
+  border 0
+  margin .5em
+  padding 1em
+  outline none
+  cursor pointer
+  background #fff
+  border-radius .1em
+
+  &:active
+    transform scale(.95)
+
+raised-button()
+  button()
+  shadow .3
+
+  &:active
+    shadow .1 //TODO smaller shadow
