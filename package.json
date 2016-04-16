@@ -1,6 +1,6 @@
 {
   "name": "simple-look",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "classes for simple user interface",
   "main": "core.styl",
   "repository": {
