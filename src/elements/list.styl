@@ -1,0 +1,30 @@
+@import '../core/space'
+@import '../core/shadow'
+
+li()
+  space .25em .5em
+  list-style-type none
+
+raised-li()
+  background #fff
+  shadow .3
+
+list()
+  space()
+
+raised-list()
+  li
+    raised-li()
+
+ul()
+  list()
+
+ol()
+  list()
+  counter-reset item
+
+  li:before
+    display inline-block
+    margin-right .5em
+    content counter(item)
+    counter-increment item
