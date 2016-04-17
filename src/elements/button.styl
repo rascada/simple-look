@@ -1,3 +1,4 @@
+@import '../behaviour/clickable'
 @import '../core/shadow'
 @import '../core/clean'
 @import '../core/space'
@@ -6,11 +7,9 @@
 button()
   clean()
   space()
+  clickable()
   cursor pointer
   border-radius .1em
-
-  &:active
-    transform scale(.95)
 
   & > a
     color inherit
@@ -23,6 +22,3 @@ a-button()
 
 raised-button()
   shadow .3
-
-  &:active
-    shadow .1 //TODO smaller shadow
