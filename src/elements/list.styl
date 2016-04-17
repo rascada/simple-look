@@ -1,7 +1,10 @@
+@import '../behaviour/raised'
+@import '../core/shadow'
 @import '../core/space'
 
 raised-li()
   background #fff
+  raised()
 
 li()
   space .25em .5em
@@ -14,6 +17,7 @@ list()
   space()
 
   &[raised]
+    shadow 0
     li
       raised-li()
 
