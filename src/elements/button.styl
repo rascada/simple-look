@@ -12,8 +12,14 @@ button()
   &:active
     transform scale(.95)
 
-  > a
-    color #222
+  & > a
+    color inherit
+
+a-button()
+  padding 1em 0
+
+  & > a
+    padding 1em
 
 raised-button()
   shadow .3
