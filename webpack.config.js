@@ -1,4 +1,5 @@
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const webpack = require('webpack');
 
 module.exports = {
   entry: './src/register',
@@ -15,5 +16,6 @@ module.exports = {
 
   plugins: [
       new ExtractTextPlugin("lib/simple-look.css"),
+      new webpack.optimize.UglifyJsPlugin(),
   ],
 };
