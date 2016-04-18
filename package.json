@@ -23,5 +23,8 @@
     "stylus": "^0.54.2",
     "stylus-loader": "^2.0.0",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "flexstyl": "^1.1.0"
   }
 }
