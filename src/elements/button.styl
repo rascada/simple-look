@@ -1,4 +1,5 @@
 @import '../behaviour/clickable'
+@import '../behaviour/hoverable'
 @import '../core/clean'
 @import '../core/space'
 @import '../config'
@@ -18,6 +19,8 @@ button()
   cursor pointer
   border-radius .1em
   transition transition
+
+  hoverable @background -5%
 
   & > a
     color inherit

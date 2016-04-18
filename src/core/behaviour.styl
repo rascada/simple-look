@@ -1,18 +1,22 @@
+@import '../behaviour/hoverable'
 @import '../behaviour/raised'
 
+bg-color(bg, font-color = '')
+  color font-color
+  background bg
+  hoverable bg
+
 .sl-primary
-  background teal
-  color #fff
+  bg-color teal #fff
 
 .sl-success
-  background mediumseagreen
-  color #fff
+  bg-color mediumseagreen #fff
 
 .sl-info
-  background lightskyblue
+  bg-color lightskyblue
 
 .sl-warning
-  background orange
+  bg-color orange
 
 .sl-danger
-  background indianred
+  bg-color indianred
